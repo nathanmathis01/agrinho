@@ -1,0 +1,130 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #c4ca70;
+    color: #333;
+    max-width: 100%;
+  }
+  
+  header {
+    background-color:#fdffec;
+    border-bottom: 2px solid  #4b8056;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #3d3d3d;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #4b8056;
+    font-weight: bold;
+  }
+  
+  .principais {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    background: #c4ca70;
+  }
+  
+  .card {
+    background-color: #f9ffd4;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 10px;
+    max-width: 180px;
+  }
+  
+  .card img {
+    width: 180px;
+    border-radius: 8px;
+  }
+  
+  .card button {
+    background-color: #4b8056;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin-top: 8px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .apresentacao {
+    text-align: center;
+    background-color:#f9ffd4;
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .apresentacao h2 {
+    max-width: 600px;
+    margin: 0 auto 20px;
+    font-size: 22px;
+  }
+  
+  .apresentacao button {
+    background-color: #4b8056;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .destaques {
+    padding: 20px, 20px;
+    background-color: #f9ffd4;
+    border-top: 2px solid  #4b8056;;
+  }
+  
+  .destaques h3 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .galeria {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+  }
+  
+  .destaques {
+    text-align: center;
+  }
+  
+  .destaques img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
